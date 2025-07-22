@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio();</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <svg class="github-icon" viewBox="0 0 24 24">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text fade-in-up">
+                    <h2>Hello World, I'm</h2>
+                    <h1>Natee Janraluek</h1>
+                    <h3>Web Developer</h3>
+                    <p>Welcome to My personal website. 👋</p>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <div class="profile-ring"></div>
+                        <div class="profile-image">
+                            <img src="image/m.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-container">
+                <h2>About Me</h2>
+                <p style="font-size: 1.2rem; color: #cccccc; max-width: 800px; margin: 0 auto;">
+                    ผมเป็น Developer ที่มีความหลงใหลในการเขียนเขียนเว็ปมากๆ
+                </p>
+                <div class="about-content">
+                    <div class="about-card">
+                        <h3>🎓 การศึกษา</h3>
+                        <p>กำลังศึกษาที่ ชั้นมัธยมศึกษาปีที่6</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>💼 ประสบการณ์</h3>
+                        <p>มีประสบการณ์ในการเขียนโปรแกรมหลายภาษา ทำงานกับทั้งโปรเจกต์ส่วนตัวและโปรเจกต์จริง</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>🎯 เป้าหมาย</h3>
+                        <p>มุ่งมั่นที่จะสร้างซอฟต์แวร์และเว็บไซต์ที่มีประสิทธิภาพและตอบโจทย์ผู้ใช้งาน</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <p style="font-size: 1.2rem; color: #cccccc; margin-bottom: 2rem;">
+                    ภาษาโปรแกรมมิ่งและเทคโนโลยีที่ผมมีความชำนาญ
+                </p>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="html">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML5</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="css">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS3</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="js">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="c">
+                        <div class="skill-icon">⚙️</div>
+                        <h3>C</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="csharp">
+                        <div class="skill-icon">🔷</div>
+                        <h3>C#</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-skill="lua">
+                        <div class="skill-icon">🌙</div>
+                        <h3>Lua</h3>
+                        <div class="skill-level">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="portfolio-container">
+                <h2>Portfolio</h2>
+                <p style="font-size: 1.2rem; color: #cccccc; margin-bottom: 2rem;">
+                    ผลงานและโปรเจกต์ที่ผมได้พัฒนา
+                </p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            💻
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>E-Commerce Website</h3>
+                            <p>เว็บไซต์ขายของออนไลน์แบบครบครัน พร้อมระบบจัดการสินค้า ตะกร้าสินค้า และระบบชำระเงิน</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">C#</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link btn-primary">Live Demo</a>
+                                <a href="#" class="portfolio-link btn-secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            🎮
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Game Development</h3>
+                            <p>เกมที่ผมได้สร้างขึ้น โดยใช้ Lua หรือ Unity  </p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Lua</span>
+                                <span class="tech-tag">Unity</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link btn-primary">Live Demo</a>
+                                <a href="#" class="portfolio-link btn-secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                  
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            ⚡
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>System Programming</h3>
+                            <p>โปรแกรมระบบและการเขียนโปรแกรมระดับต่ำด้วยภาษา C</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">C</span>
+                                <span class="tech-tag">Linux</span>
+                                <span class="tech-tag">System API</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link btn-primary">Live Demo</a>
+                                <a href="#" class="portfolio-link btn-secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                            🔧
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Scripting & Automation</h3>
+                            <p>สคริปต์และการทำงานอัตโนมัติต่างๆ ด้วย Lua และ JavaScript</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Lua</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Automation</span>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link btn-primary">Live Demo</a>
+                                <a href="#" class="portfolio-link btn-secondary">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
